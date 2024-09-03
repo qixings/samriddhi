@@ -13,8 +13,6 @@ body {
     background: radial-gradient(at top, #2e5c89, #000000);
     text-align: center;
     filter: drop-shadow(0px 0px 6px black);
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
     min-width: 390px;
     width: 100%;
     position: fixed; /* Fixes the header at the top */
