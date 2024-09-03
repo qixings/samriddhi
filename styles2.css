@@ -11,12 +11,14 @@ body {
 /* Top Header */
 .top-header {
     background: radial-gradient(at top, #2e5c89, #000000);
-    padding: 0px 0;
     text-align: center;
     filter: drop-shadow(0px 0px 6px black);
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
     min-width: 390px;
+    width: 100%;
+    position: fixed; /* Fixes the header at the top */
+    top: 0;
+    left: 0;
+    z-index: 10000; /* Ensures the header stays on top of other content */
 }
 
 .top-header img {
@@ -26,7 +28,7 @@ body {
 /* Alert Marquee */
 .alert-marquee {
     margin: 8px;
-    margin-top: 8px;
+    margin-top: 102px;
     background-color: #6193e3;
     padding: 5px;
     text-align: center;
@@ -41,14 +43,6 @@ body {
     width: 368px;
 }
 
-/* Navigation Buttons */
-.nav-buttons {
-    display: flex;
-    justify-content: space-around;
-    margin: 10px;
-    width: 100%;
-    max-width: 390px;
-}
 
 .nav-btn {
     background-color: #24384c;
@@ -69,13 +63,15 @@ body {
 
 /* Banner Section */
 .banner-section {
-    background-color: #24384c;
+    background-color: #007fff;
     padding: 20px;
     border-radius: 10px;
     margin: 10px;
     position: relative;
     color: white;
     text-align: center;
+    height: 350px;
+    width: 333px;
 }
 
 .banner-section img {
@@ -83,13 +79,6 @@ body {
     border-radius: 10px;
 }
 
-.banner-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
 
 .banner-content h2 {
     font-size: 24px;
@@ -115,13 +104,9 @@ body {
 }
 
 /* Ongoing Events Section */
-.ongoing-events {
-    background-color: #354e68;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    border-radius: 10px;
-    margin: 10px;
+.ongoing-events p {
+     color: white;
+     font-size: 12px;
 }
 
 .ongoing-events h2 {
@@ -137,6 +122,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 302px;
 }
 
 .event-info h3 {
@@ -146,6 +132,11 @@ body {
 
 .event-info p {
     margin: 5px 0;
+    font-size: 12px;
+    color: white;
+}
+.event-info{
+    margin-right: 5px;
 }
 
 .continue-btn {
@@ -155,8 +146,38 @@ body {
     border-radius: 5px;
     font-weight: bold;
     text-decoration: none;
+    text-align: center;
+    width: 52px;
 }
 
+.ongoing-events{
+    background-color: #52df1182;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    width: 333px;
+
+}
+.ongoing-events h2{
+    text-align: left;
+    color: #0099ff;
+}
+.past-events{
+    background-color: #df951140;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    width: 333px;
+
+}
+.past-events h2{
+    text-align: left;
+    color: black;
+}
 .continue-btn:hover {
     background-color: #f44336;
     transition: background 0.3s ease;
@@ -164,17 +185,20 @@ body {
 
 /* Upcoming Events Section */
 .upcoming-events {
-    background-color: #354e68;
+    background-color: #11a6df40;
     color: white;
     text-align: center;
     padding: 20px;
     border-radius: 10px;
     margin: 10px;
+    width: 333px;
 }
 
 .upcoming-events h2 {
     margin-top: 0;
     font-size: 22px;
+    text-align: left;
+    color: black;
 }
 
 .register-btn {
@@ -193,11 +217,11 @@ body {
 
 /* Footer */
 .footer {
-    background-color: #333;
-    color: #ffffff;
+    color: #000000;
     text-align: center;
     padding: 10px;
-    margin-bottom: 65px;
+    margin-bottom: 100px;
+    font-size: 9px;
 }
 
 /* Bottom Fixed Navigation */
@@ -226,7 +250,7 @@ body {
 
 .bottom-nav .nav-item i {
     display: block;
-    font-size: 1.5em;
+    font-size: 25px;
     margin-bottom: 5px;
 }
 
