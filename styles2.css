@@ -1,5 +1,5 @@
 body {
-      background-color: #29333e;
+    background-color: #29333e;
     color: #ffffff;
     margin: 0px;
     font-family: Arial, sans-serif;
@@ -115,7 +115,7 @@ body {
 }
 
 .event-card {
-    background-color: #24384c;
+    background-color: #13212b;
     border-radius: 10px;
     padding: 15px;
     margin: 10px 0;
@@ -151,7 +151,7 @@ body {
 }
 
 .ongoing-events{
-    background-color: #52df1182;
+    background-color: #9bff00a6;
     color: white;
     text-align: center;
     padding: 20px;
@@ -162,10 +162,10 @@ body {
 }
 .ongoing-events h2{
     text-align: left;
-    color: #0099ff;
+    color: #ffffff;
 }
 .past-events{
-    background-color: #df951140;
+    background-color: #8457df8f;
     color: white;
     text-align: center;
     padding: 20px;
@@ -176,7 +176,7 @@ body {
 }
 .past-events h2{
     text-align: left;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 .continue-btn:hover {
     background-color: #f44336;
@@ -185,7 +185,7 @@ body {
 
 /* Upcoming Events Section */
 .upcoming-events {
-    background-color: #11a6df40;
+    background-color: #31a0ca7a;
     color: white;
     text-align: center;
     padding: 20px;
@@ -198,7 +198,7 @@ body {
     margin-top: 0;
     font-size: 22px;
     text-align: left;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 .register-btn {
@@ -217,7 +217,7 @@ body {
 
 /* Footer */
 .footer {
-    color: #000000;
+    color: #ffffff;
     text-align: center;
     padding: 10px;
     margin-bottom: 100px;
@@ -265,7 +265,6 @@ body {
     color: #ffffff; /* Active color */
     filter: drop-shadow(0px 0px 8px #1ebfff); /* Glow effect */
 }
-
 
 
 /* Responsive Design */
