@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samriddhi - Gallery</title>
+    <link rel="stylesheet" href="assets/css/styles3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> <!-- Font Awesome for Icons -->
+</head>
+<body>
+    <!-- Top Header with Logo -->
+    <div class="top-header">
+        <img src="assets/images/samriddhilogo.png" alt="Samriddhi Logo">
+    </div>
+
+    <!-- Alert Marquee -->
+    <div class="alert-marquee">
+        <marquee>Explore the memories from our past events and activities!</marquee>
+    </div>
+
+    
+
+    <!-- Gallery Title and Introduction -->
+    <section class="gallery-intro">
+        <h1><img src="assets/images/samriddhilogo.png" width="105px" alt=""> <br> Gallery</h1>
+        <p>Explore the memories captured during our events and activities.</p>
+    </section>
+    
+    <!-- Back Button -->
+    <button id="back-button" class="back-button" style="display: none;">&larr; Back to Events</button>
+
+    <!-- Image Grid Layout -->
+    <section id="gallery-grid" class="gallery-grid">
+        <!-- JavaScript will dynamically insert gallery items here -->
+    </section>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-content" id="lightbox-image">
+        <div id="caption"></div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <img src="assets/images/samriddhilogo.png" width="60px" style="filter: drop-shadow(0px 8px 6px rgb(133, 174, 0));" alt="Samriddhi Logo">
+        <p>&copy; 2024 Samriddhi. All rights reserved.</p>
+    </footer>
+
+    <!-- Bottom Fixed Navigation -->
+    <div class="bottom-nav">
+        <a href="index.html" class="nav-item">
+            <i class="fas fa-home"></i>
+            <span>Home</span>
+        </a>
+        <a href="events.html" class="nav-item">
+            <i class="fas fa-calendar-alt"></i>
+            <span>Events</span>
+        </a>
+        <a href="gallery.html" class="nav-item active">
+            <i class="fas fa-images"></i>
+            <span>Gallery</span>
+        </a>
+        <a href="donate.html" class="nav-item">
+            <i class="fas fa-donate"></i>
+            <span>Donate</span>
+        </a>
+        <a href="authority.html" class="nav-item">
+            <i class="fas fa-user-shield"></i>
+            <span>Authority</span>
+        </a>
+        <a href="profile.html" class="nav-item">
+            <i class="fas fa-user"></i>
+            <span>Profile</span>
+        </a>
+    </div>
+
+    <script src="assets/js/gallery.js"></script>
+</body>
+</html>
