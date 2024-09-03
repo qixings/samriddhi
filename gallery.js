@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Go back to event folders
     backButton.addEventListener('click', function() {
-        fetch('assets/events.json')
+        fetch('events.json')
             .then(response => response.json())
             .then(data => {
                 let galleryHTML = '';
