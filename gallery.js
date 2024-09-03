@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const backButton = document.getElementById('back-button');
 
     // Load the event data from the JSON file
-    fetch('assets/events.json')
+    fetch('events.json')
         .then(response => response.json())
         .then(data => {
             data.events.forEach((event, index) => {
@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Function to show event gallery
     window.showEventGallery = function(index) {
-        fetch('assets/events.json')
+        fetch('events.json')
             .then(response => response.json())
             .then(data => {
                 const event = data.events[index];
