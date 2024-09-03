@@ -1,0 +1,26 @@
+{
+    "events": [
+      {
+        "title": "Village Cleaning Drive",
+        "date": "August 20, 2024",
+        "location": "Entire Village Area",
+        "description": "Join us as we clean and beautify our village.",
+        "images": [
+          "assets/images/image1.jpg",
+          "assets/images/image2.jpg",
+          "assets/images/image3.jpg"
+        ]
+      },
+      {
+        "title": "Blood Donation Camp",
+        "date": "September 15, 2024",
+        "location": "Village Community Center",
+        "description": "Contribute to saving lives by donating blood.",
+        "images": [
+          "assets/images/image1.jpg",
+          "assets/images/image5.jpg"
+        ]
+      }
+    ]
+  }
+  
